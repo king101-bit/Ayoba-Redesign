@@ -1,0 +1,68 @@
+:root {
+  --accent-color: #F6AA1C;
+  --Background-color: #f7ea00;
+  --Link-color: #0061A2;
+  --button-color: #FFBC0A;
+  --section-color: #EFEFEF;
+}
+
+#navbar {
+  background: var(--Background-color) !important;
+}
+
+section {
+  background-color: var(--section-color);
+}
+
+.card-header {
+  text-align: center;
+}
+
+img {
+  background: transparent !important;
+}
+
+.recall {
+  color: var(--Link-color);
+}
+
+.SC {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.sh {
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+.btn {
+  background-color: var(--button-color);
+}
+
+.maintxt1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.maintxt2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  background-color: var(--Background-color);
+}
+
+h2 {
+  color: var(--Link-color);
+}
+/*# sourceMappingURL=Main.css.map */
